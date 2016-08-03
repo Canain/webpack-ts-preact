@@ -10,4 +10,9 @@ config.plugins.push(new webpack.DefinePlugin({
 	}
 }));
 
+config.resolve.alias = {
+	'react': 'preact-compat',
+	'react-dom': 'preact-compat'
+};
+
 module.exports = config;

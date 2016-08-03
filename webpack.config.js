@@ -34,11 +34,7 @@ module.exports = {
 	devtool: 'source-map',
 	resolve: {
 		modulesDirectories: ['node_modules'],
-		extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js', '.jsx'],
-		alias: {
-			'react': 'preact-compat',
-			'react-dom': 'preact-compat'
-		}
+		extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js', '.jsx']
 	},
 	plugins: []
 };

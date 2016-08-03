@@ -5,7 +5,9 @@
   "main": "public/index.html",
   "dependencies": {
     "preact": "^5.6.0",
-    "preact-compat": "^2.3.0"
+    "preact-compat": "^2.3.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.7",
