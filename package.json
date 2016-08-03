@@ -5,9 +5,7 @@
   "main": "public/index.html",
   "dependencies": {
     "preact": "^5.6.0",
-    "preact-compat": "^2.3.0",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "preact-compat": "^2.3.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.7",
@@ -19,6 +17,8 @@
     "live-server": "^1.0.0",
     "postcss-loader": "^0.9.1",
     "precss": "^1.4.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
     "style-loader": "^0.13.1",
     "ts-loader": "^0.8.2",
     "typescript": "^2.1.0-dev.20160802",
