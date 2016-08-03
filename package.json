@@ -1,0 +1,33 @@
+{
+  "name": "webpack-ts-preact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "dependencies": {
+    "preact": "^5.6.0",
+    "preact-compat": "^2.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015-webpack": "^6.4.2",
+    "concurrently": "^2.2.0",
+    "css-loader": "^0.23.1",
+    "json-loader": "^0.5.4",
+    "live-server": "^1.0.0",
+    "postcss-loader": "^0.9.1",
+    "precss": "^1.4.0",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.1.0-dev.20160802",
+    "webpack": "^2.1.0-beta.20"
+  },
+  "scripts": {
+    "start": "concurrently -k --raw \"webpack -wd\" \"npm run serve\"",
+    "prod": "webpack --config webpack.prod.js -p",
+    "serve": "live-server public",
+    "prod-serve": "npm run prod && npm run serve"
+  },
+  "author": "Shuyang Chen <sc1085@gmail.com>",
+  "license": "MIT"
+}
