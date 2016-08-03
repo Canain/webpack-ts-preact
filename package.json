@@ -20,9 +20,11 @@
     "style-loader": "^0.13.1",
     "ts-loader": "^0.8.2",
     "typescript": "^2.1.0-dev.20160802",
+    "typings": "^1.3.2",
     "webpack": "^2.1.0-beta.20"
   },
   "scripts": {
+    "postinstall": "typings i",
     "start": "concurrently -k --raw \"webpack -wd\" \"npm run serve\"",
     "prod": "webpack --config webpack.prod.js -p",
     "serve": "live-server public",
