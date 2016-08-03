@@ -1,4 +1,4 @@
-# Web Boilerplate for making Small but Modern Apps
+# Boilerplate for making Small but Modern Web Apps
 
 Libraries/Tools used:
 
