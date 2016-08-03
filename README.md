@@ -1,4 +1,4 @@
-# Boilerplate for making Modern Web Apps with small script size
+# Boilerplate for making React apps with a small script size
 
 Libraries/Tools used:
 
