@@ -23,9 +23,9 @@ export default class App extends Component<Properties, State> {
 	
 	render() {
 		return (
-			<body>
+			<div>
 				<h1>{this.state.text}</h1>
-			</body>
+			</div>
 		);
 	}
 }
